@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta name="keywords" content="Paced Breathing, Dialectical Behavior Therapy, DBT, Distress Tolerance Skills" />
+    <meta name="description" content="DBT Paced Breathing Helper Webapp" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i"
+        rel="stylesheet">
+    <title>DBT Paced Breathing Helper</title>
+    <link href="style.css" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <h1 class="title">Paced Breathing</h1>
+        <hr />
+        <p class="content">
+            In <a href="https://www.psychologytoday.com/us/therapy-types/dialectical-behavior-therapy">Dialectical
+                Behavior Therapy</a> (DBT), one of the Distress Tolerance Skills is <strong>Paced Breathing</strong>.
+            This breathing technique cues
+            one's parasympathetic nervous system by breathing deeply and in a timed-arranged way. Dr. Marsha M.
+            Linehan,
+            creator of DBT, notes that this technique is a "Behavioral Anti-Anxiety Medication".
+            <br /><br />
+            When ready, click "begin" and follow the breathing guides until you have reached a calmer state (3-4
+            minutes is a typical session length - a timer is provided to the bottom right).
+        </p>
+
+        <button class="begin-button" onclick="begin()">Begin</button>
+        <div class="breathing-guide"></div>
+        <div class="time-elapsed">Elapsed: <span class="minutes">00</span>:<span class="seconds">00</span></div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="script.js"></script>
+
+</html>

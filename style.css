@@ -1,0 +1,85 @@
+body {
+    background: #f8f8ff;
+}
+
+hr {
+    color: #5D8CAE;
+    border-color: #5D8CAE;
+    border-width: 1px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.breathing-guide {
+    margin-top: 45px;
+    font-size: 3em;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.inhale {
+    color: #67A3CE;
+}
+
+.exhale {
+    color: 	#3F9003;
+}
+
+.hold {
+    color: #89729E;
+}
+
+.begin-button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #5D8CAE;
+    border: none;
+    color: #ffffff;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.time-elapsed {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1em;
+    display: none;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1.title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container p.content {
+    font-family: 'IBM Plex Serif', serif;
+    padding: 10px;
+    font-size: 1em;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.nav a.brand-logo {
+    margin-left: 1%;
+    width: 300px;
+    text-align: center
+}
